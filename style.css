@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}body{
+    
+    padding-top: 120px;
+    padding-left: 95px;
+    padding-right: 20px;
+
+
+
+}
+.ticon{
+    width: 1px;
+    height: 10px;
+}
+.upper-header{
+    height:55px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    
+
+   
+    
+}
+.lower-header{
+    position: fixed;
+    left: 72px;
+    right: 0px;
+    top: 055px;
+    background-color: white;
+}
+    
+.left-header
+{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.middle-header
+{
+    
+    flex:1;
+    margin-left: 70px;
+    margin-right: 100px;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgb(255, 255, 255);
+    
+}
+.right-header{
+    
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin-left: 0px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+.side-bar{
+    
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 72px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-icon{
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+    border-width: 0;
+    cursor: pointer;
+}
+.search-button{
+    height: 36px;
+    width: 70px;
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    border-width: 0;
+    border-left-width: 0.0001rem;
+    border-color: rgba(128, 128, 128, 0.349);
+    cursor: pointer;
+    
+}
+.input-box{
+    
+    height:36px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 55px;
+    border-width: 0;
+    
+    
+    
+    
+
+}
+.input-box::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 18px;
+    margin-left:px;
+
+}
+.search-icon{
+    height: 30px;
+    opacity: 0.8;
+    
+    
+}
+.search-block{
+    flex:1;
+    margin-left: 0px;
+    margin-right: 20px;
+    max-width: 590px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.349);
+    border-radius: 100px;
+    height: 36px;
+    width: 0;
+   
+    
+}
+.voice-search-img{
+    width: 25px;
+}
+.upload-icon{
+    height: 24px;
+    cursor: pointer;
+}
+.not-icon{
+    height: 24px;
+    cursor: pointer;
+    
+}
+
+.dp-icon{
+    height: 32px;
+    cursor: pointer;
+    border-radius: 55px
+}
+.thumbnail{
+    
+   border-radius: 10px;
+    width: 100%;
+   
+}
+.channel-pic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    cursor: pointer;
+    
+    
+}
+
+.profile-pic{
+    width: 36px;
+    border-radius: 100px;
+}
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+
+.thumbnail-container{
+    margin-bottom: 10px;
+    cursor: pointer;
+   
+  
+    
+    
+}
+p{
+    font-family:Roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-author{
+    font-size: 13px;
+    color: rgb(96,96,96);
+    margin-bottom: 4px;
+
+}
+.video-stats{
+    font-size: 13px;
+    color: rgb(96,96,96);
+}
+.videos-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.content{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 18px;
+    
+}
+.suggesions button{
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    font-weight: 450;
+    font-family: roboto,arial;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.suggesions{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.suggesions button:hover{
+    background-color: rgb(199, 199, 199);
+}
+.suggesions button:active{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.sidebar-button{
+    
+    height: 76px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    width:1fr;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.sidebar-button:hover{
+    background-color: rgb(241, 241, 241);
+
+
+}
+.side-bar img{
+    height: 25px;
+
+}
+.side-bar p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.side-bar a{
+    text-decoration: none;
+    color: black;
+}
+.shorts-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    height: 550px;
+    margin-bottom: 30px;
+   
+
+}
+.ytshorts-logo{
+    width: 26px;
+    margin-left: 20px;
+    
+    
+}
+.text-short p{
+    font-family: roboto,arial;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 25px;
+}
+    
+.s-video-block{
+    display: grid;
+    grid-template-columns: 80% 1px 5px;
+}
+    
+
+
+.s-head{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.s-thumbnail-container img{
+    height: 467.5px;
+    width: 246.656px;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.s-video-title{
+    overflow: hidden;
+    margin-top: 12px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.s-video-info{
+    padding-top: 5px;
+    font-size: 13px;
+    color: rgb(95, 95, 95);
+}
+.info-dot{
+    width: 20px;
+    margin-top: 12px;
+  
+}
+
+.infogrid{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+}
+.s-link{
+    text-decoration: none;
+    color: black;
+
+}
+.show-more{
+    display: grid;
+    grid-template-columns: 1fr 350px 1fr;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.hr-show-more{
+    height: 0.1rem;
+    background-color: rgba(211, 211, 211, 0.966);
+    box-shadow: none;
+    opacity: 0.3;
+    
+}
+.show-more button{
+    height: 35px;
+    border-radius: 55px;
+    border-width: 0.5px;
+    border-color: lightgray;
+    border-style: solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    font-family:  "Roboto", "Arial", sans-serif;;
+}
+.show-more button:hover{
+    background-color: lightgray;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+
+}
+.show-more img{
+    width: 20px;
+    padding-left: 5px;
+}
